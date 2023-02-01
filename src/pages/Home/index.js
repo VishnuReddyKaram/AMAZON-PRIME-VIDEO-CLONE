@@ -30,7 +30,7 @@ function Home() {
             <Header/>
             <Slide/>
             <Movie
-                title="Assista a seguir"
+                title="Popular Movies"
                 movies={movies}
             />
         </Fragment>
