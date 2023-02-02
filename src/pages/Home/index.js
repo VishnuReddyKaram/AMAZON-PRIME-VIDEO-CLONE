@@ -10,8 +10,8 @@ import './styles.js';
 
 function Home() {
 
-    const API_KEY = '20d0453e2b57cb10e3203c454698e785'
-    const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`
+    const API_KEY = 'd2dce543a682bd8a0f04a001902ca720'
+    const API_URL = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}`
 
     const [movies, setMovies] = useState([])
 
